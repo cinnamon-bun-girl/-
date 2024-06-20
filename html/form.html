@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Волшебные миры</title>
+        <link rel="stylesheet" type="text/css" href="C:\Users\МАША\Documents\учеба\3 курс 6 сем\веб\курсовая\css\form_style.css">
+        <meta http-equiv="Content-type" content="text/html">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <header>
+            <a href="main.html"><img id="mini_logo" src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/pictures/mini_logo.png" alt="Логотип"></a>
+            <a href="main.html">Главная</a>
+            <a href="rules.html">Условия участия</a>
+            <a href="form.html">Подать заявку</a>
+            <a href="photo-gallery.html">Фотографии</a>
+            <a href="contacts.html">Контакты</a>
+            <section id="nearest-event">
+                <a href="nearest-event.html"><b>19 мая</b><br>Ближайшее событие</a>
+            </section>
+        </header>
+
+        <h1>Заявка на участие в ремесленной ярмарке «Волшебные миры»</h1>
+
+        <div id='banner'>
+            <p>Если вы желаете стать участником\участницей ярмарки, то перед тем как заполнить анкету ознакомьтесь, пожалуйста, с условиями участия</p>
+            <form action="rules.html">
+                <button>
+                    <p>Условия участия</p>
+                </button>
+            </form>
+        </div>
+
+        <div id='event-card'>
+            <div class="left">
+                <h2>Тема грядущей 14-ой ярмарки: Властелин колец</h2>
+                <p>Самое время сделать отметку в календаре и запланировать поход на новую ярмарку «Волшебные миры»!На этот раз темой ярмарки будет «Властелин колец».</p>
+                <p>Количество мест ограничено. Набор продолжается до тех пор пока не закончатся места. </p>
+                <p>По всем вопросам пишите в личные сообщения аккаунтов ярмарки «Волшебные миры» (ВКонтакте, Instagram или Telegram): @fest_fairyworlds</p>
+            </div>
+
+            <div class="right">
+                <h1>19 мая</h1>
+                <p>12:00-19:00</p>
+                <p>Лофт «Библиотека»
+                    Ростов–на–дону
+                    13-линия, 34</p>
+            </div>
+        </div>
+
+        <form  id="regForm" action="congrats.html">
+            <div class="tab">
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/form-1.png" alt="1 этап">
+                <h2>Контактная информация</h2>
+
+                <input placeholder="Имя" oninput="this.className = ''">
+                <input placeholder="Телефон" oninput="this.className = ''">
+                <input placeholder="Город" oninput="this.className = ''">
+                <input placeholder="Почта" oninput="this.className = ''">
+            </div>
+            
+            <div class="tab">
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/form-2.png" alt="2 этап">
+                <h2>Социальные сети</h2>
+
+                <p>Профиль с вашими изделиями в Instagram</p>
+                <input placeholder="@fantasyworlds" oninput="this.className = ''">
+
+                <p>Ссылка на группу VK  с вашими изделиями. Если такой нет, укажите ссылку на личную страницу</p>
+                <input placeholder="https://vk.com/fantasy" oninput="this.className = ''">
+                
+                <p>Ваш профиль в Telegram (либо номер телефона к которому привязан профиль, либо ник)</p>
+                <input placeholder="@fantasyworlds" oninput="this.className = ''">
+            </div>
+
+            <div class="tab">
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/form-3.png" alt="3 этап">
+                <h2>Мастерская и товары</h2>
+
+                <p>Название проекта\мастерской\бренда (укажите верное) и краткое описание</p>
+                <input placeholder="Мастерская «Тюльпан»" oninput="this.className = ''">
+
+                <p>Какие из товаров по заданной теме  «Властелин колец» Вы планируете изготовить?
+                    (Мы понимаем, что не все виды творчества/услуги можно привязать к теме, например: плетение из лозы, сыры, гадание на Таро и т.д. Если к Вам этот пункт не относится, то напишите «не планирую». Но если вы: вышиваете, создаете изделия из глины, рисуете, шьете игрушки и т.д., то ответ в этом пункте будет влиять на принятие решения о вашем участии. Ваш ассортимент может и не состоять на 100% из товаров по теме ярмарки, но 30–20% обязательно должны быть)</p>
+                <input placeholder="Мой ответ" oninput="this.className = ''">
+                
+                <p>Перечислите кратко, какие товары/услуги Вы хотели бы представить на ярмарке «Волшебные миры». Если у вас есть что-то атмосферно-сказочное (пусть и не по теме ярмарки), пожалуйста, напишите об этом</p>
+                <input placeholder="Мой ответ" oninput="this.className = ''">
+            </div>
+
+            <div class="tab">
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/form-4.png" alt="4 этап">
+                <h2>Дополнительная информация</h2>
+
+                <p>Участвовали ли вы ранее в других ярмарках\маркетах?</p>
+                <input type="radio" id="radio-button-1" name="radio" value="yes" />
+                <label for="radio-button-1">Да</label>
+                <input type="radio" id="radio-button-2" name="radio" value="no" />
+                <label for="radio-button-2">Нет</label>
+
+                <p>Если желаете провести мастер-класс, укажите тему и кратко опишите его
+                    Важно: этот пункт не гарантирует, что мастер-класс будет включен в программу. Окончательное решение принимает организатор</p>
+                <input placeholder="Мой ответ" oninput="this.className = ''">
+                
+                <p>Откуда Вы узнали о ярмарке «Волшебные миры»?</p>
+                <input type="checkbox" id="vk"/>
+                <label for="vk">Реклама ВКонтакте</label>
+                <input type="checkbox" id="inst"/>
+                <label for="inst">Реклама в Instagram</label>
+                <input type="checkbox" id="friends"/>
+                <label for="friends">Порекомендовали знакомые</label>
+                <input type="checkbox" id="know"/>
+                <label for="know">Участвовал(а) ранее в ярмарке «Волшебные миры»</label>
+                <input type="checkbox" id="internet"/>
+                <label for="internet">Реклама в интернете</label>
+                <input type="checkbox" id="another"/>
+                <label for="another">Другое</label>
+
+                <p>Почему хотите принять участие в нашей ярмарке?</p>
+                <input placeholder="Мой ответ" oninput="this.className = ''">
+
+                <a href="https://disk.yandex.com.am/i/6GJcHcIX7m60Gg">Ссылка на договор оферту ярмарки «Волшебные миры»</a>
+                <p>Нажимая на кнопку вы соглашаетесь с договором офертой</p>
+                <input type="checkbox" id="agree"/>
+                <label for="agree">Я ознакомился(лась) с договором офертой и согласен(на) с обработкой персональных данных</label>
+            </div>
+
+            <div style="overflow:auto;">
+                <div style="float:right;">
+                  <button type="button" id="prevBtn" onclick="nextPrev(-1)">Назад</button>
+                  <button type="button" id="nextBtn" onclick="nextPrev(1)">Далее</button>
+                </div>
+              </div>
+
+              <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+              </div>
+
+              <script src="form.js"></script>
+        </form>
+
+        <footer>
+            <a href="main.html"><img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/pictures/logo.png" alt="Логотип"></a>
+            
+            <div class="find-us">
+                <p>Связаться с нами:</p>
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/pictures/.png" alt="">
+                <p>+7 (928) 195-32-03</p>
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/pictures/.png" alt="">
+                <p>fest.fairyworlds@yandex.ru</p>
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/pictures/.png" alt="">
+                <p>ул. 13-я Линия, д. 34, Ростов-на-Дону</p>
+            </div>
+            
+            <div class="links">
+                <a href="rules.html">Условия участия</a>
+                <a href="form.html">Подать заявку</a>
+                <a href="photo-gallery.html">Фотографии</a>
+                <a href="nearest-event.html">Ближайшее событие</a>
+            </div>
+
+            <div class="social">
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/pictures/.png" alt="">
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/pictures/.png" alt="">
+                <img src="C:/Users/МАША/Documents/учеба/3 курс 6 сем/веб/курсовая/pictures/.png" alt="">
+            </div>
+        </footer>
+    </body>
+</html>
