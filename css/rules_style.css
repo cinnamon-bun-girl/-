@@ -1,0 +1,7 @@
+.text{
+    display: none;
+}
+
+.text.active{
+    display: block;
+}
